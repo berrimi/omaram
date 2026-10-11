@@ -3,6 +3,8 @@
 A RAM usage ring for the Omarchy bar. Memory usage is drawn as a circular
 progress arc, the tooltip shows used / total GiB, and clicking opens `btop`.
 
+![preview](preview.png)
+
 ## Requirements
 
 - Omarchy (Quattro shell)
