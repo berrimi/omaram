@@ -5,7 +5,7 @@ import qs.Commons
 import qs.Ui
 BarWidget {
   id: root
-  moduleName: "ram-monitor"
+  moduleName: "io.github.berrimi.omaram"
   property int usagePercent: 0
   property string usedG: ""
   property string totalG: ""

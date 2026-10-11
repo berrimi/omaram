@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
-  "id": "berrimi.ram-monitor",
-  "name": "RAM Monitor",
+  "id": "io.github.berrimi.omaram",
+  "name": "omaram",
   "version": "1.0.0",
-  "author": "User",
-  "description": "RAM usage with tiered icons, click for btop",
+  "author": "berrimi",
+  "license": "MIT",
+  "description": "RAM usage as a ring in the bar, click to open btop",
   "kinds": ["bar-widget"],
   "entryPoints": {
     "barWidget": "RamMonitor.qml"
   },
   "barWidget": {
-    "displayName": "RAM Monitor",
-    "description": "RAM usage tiered icons, click for btop",
+    "displayName": "omaram",
+    "description": "RAM usage ring, click to open btop",
     "category": "System",
     "allowMultiple": false
   }
